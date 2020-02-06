@@ -1,12 +1,13 @@
+controller\PlaylistController.class
 br\com\benedilson\dao\PlaylistDaoImpl.class
 br\com\benedilson\service\PlaylistServiceImpl.class
-config\ConfiguracaoSpringMvc.class
 br\com\benedilson\SpotmusicApplication.class
 br\com\benedilson\domain\Musica.class
 br\com\benedilson\domain\Playlist.class
 br\com\benedilson\dao\PlaylistDao.class
 br\com\benedilson\service\MusicaServiceImpl.class
 br\com\benedilson\service\PlaylistService.class
+br\com\benedilson\ServletInitializer.class
 br\com\benedilson\dao\MusicaDao.class
 br\com\benedilson\dao\MusicaDaoImpl.class
 br\com\benedilson\service\MusicaService.class
