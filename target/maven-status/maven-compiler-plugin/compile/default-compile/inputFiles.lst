@@ -1,13 +1,13 @@
 C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\domain\Musica.java
+C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\controller\PlaylistController.java
 C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\service\MusicaServiceImpl.java
 C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\domain\Playlist.java
-C:\devmedia\spring\SpotMusic\src\main\java\controller\PlaylistController.java
 C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\dao\MusicaDaoImpl.java
 C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\SpotmusicApplication.java
 C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\service\PlaylistService.java
-C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\ServletInitializer.java
 C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\dao\MusicaDao.java
 C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\dao\PlaylistDao.java
 C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\dao\PlaylistDaoImpl.java
 C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\service\PlaylistServiceImpl.java
 C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\service\MusicaService.java
+C:\devmedia\spring\SpotMusic\src\main\java\br\com\benedilson\config\ConfiguracaoSpringMvc.java
