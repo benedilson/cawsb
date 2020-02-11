@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, user-scalable=no"/>
 
         <link href="/webjars/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="/css/style.css" rel="stylesheet"/>
+        <link href="/static/css/style.css" rel="stylesheet"/>
     </head>
     <body>
         <div class="container">
@@ -17,7 +17,7 @@
 
             <h4>Nova playlist</h4>
 
-            <form th:action="@{/playlists/salvar}" th:method="post" th:object="${playlist}">
+            <form th:action="@{/playlists/salvar}" th:method="${playlist.id} == 0 ? post : put" th:object="${playlist}">
                 <div class="row">
                     <input id="id" type="hidden" th:field="*{id}" />
                     <div class="form-group col-md-4">
