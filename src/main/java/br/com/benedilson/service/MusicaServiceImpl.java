@@ -32,17 +32,18 @@ public class MusicaServiceImpl implements MusicaService {
 
     @Override
     @Transactional(readOnly = true)
-    public Musica recuperarPorPlaylist(long playlistID, long musicaId) {
+    public Musica recuperarPorPlaylistIdEMusicaId(long playlistID, long musicaId) {
         return musicaDao.recuperarPorPlaylistIdEMusicaId(playlistID, musicaId);
     }
 
     @Override
     public void atualizar(Musica musica, long playlistId) {
-
+        musica.setPlaylist(playlistService.recuperarPorId(playlistId));
+        musicaDao.atualizar(musica);
     }
 
     @Override
     public void excluir(long playlistId, long musicaId) {
-
+        musicaDao.excluir(recuperarPorPlaylistIdEMusicaId(playlistId, musicaId).getId());
     }
 }

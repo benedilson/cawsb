@@ -8,6 +8,7 @@ br\com\benedilson\dao\PlaylistDao.class
 br\com\benedilson\service\MusicaServiceImpl.class
 br\com\benedilson\service\PlaylistService.class
 br\com\benedilson\controller\PlaylistController.class
+br\com\benedilson\controller\MusicaController.class
 br\com\benedilson\dao\MusicaDao.class
 br\com\benedilson\dao\MusicaDaoImpl.class
 br\com\benedilson\service\MusicaService.class
