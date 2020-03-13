@@ -28,16 +28,16 @@
                         <div th:if="${#fields.hasErrors('titulo')}" th:errors="*{titulo}"></div>
                     </div>
 
-                    <div class="form-group col-md-8">
+                    <div class="form-group col-md-4">
                         <label for="banda">Banda:</label>
                         <input class="form-control" id="banda" type="text" th:field="*{banda}"
                                th:class="${#fields.hasErrors('banda')}? fieldError" />
                         <div th:if="${#fields.hasErrors('banda')}" th:errors="*{banda}"></div>
                     </div>
 
-                    <div class="form-group col-md-8">
+                    <div class="form-group col-md-4">
                         <label for="nota">Nota:</label>
-                        <input class="form-control" id="nota" type="text" th:field="*{nota}" th:class="${#fields.hasErrors('nota')}? fieldError" />
+                        <input class="form-control" id="nota" type="number" th:field="*{nota}" th:class="${#fields.hasErrors('nota')}? fieldError" />
                         <div th:if="${#fields.hasErrors('nota')}" th:errors="*{nota}"></div>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
 
             <hr />
 
-            <a class="btn btn-light" th:href="@{/playlists/{playlistId}/musicas/listar(playlistId=${playListId})}">Voltar</a>
+            <a class="btn btn-light" th:href="@{/playlists/{playlistId}/musicas/listar(playlistId=${playlistId})}">Voltar</a>
 
             <hr />
 

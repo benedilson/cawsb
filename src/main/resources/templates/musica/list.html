@@ -41,11 +41,9 @@
                         <td th:text="${musica.nota}">nota</td>
                         <td>
                             <a class="btn btn-sm btn-info"
-                               th:href="@{/playlists/{playlistId}/musicas/{musicaId}/atualizar(
-                               playlistId=${playlistId}, musicaId=${musica.id})}">Editar</a>
+                               th:href="@{/playlists/{playlistId}/musicas/{musicaId}/atualizar(playlistId=${playlistId}, musicaId=${musica.id})}">Editar</a>
                             <a class="btn btn-sm btn-danger"
-                               th:href="@{/playlists/{playlistId}/musicas/{musicaId}/remover(
-                               playlistId=${playlistId}, musicaId=${musica.id})}">Excluir</a>
+                               th:href="@{/playlists/{playlistId}/musicas/{musicaId}/remover(playlistId=${playlistId}, musicaId=${musica.id})}">Excluir</a>
                         </td>
                     </tr>
                 </table>
@@ -53,7 +51,7 @@
             <div th:if="${#lists.isEmpty(musicas)}">
                 <div class="alert alert-info" role="alert">
                     <span class="glyphicon glyphicon-exclamation-sign"></span>
-                    0 musicas cadastradas!
+                    0 músicas cadastradas!
                 </div>
             </div>
             <hr />
